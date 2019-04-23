@@ -21,6 +21,7 @@ $resultat = getAllAnnonces();
 $first = getFirstAnnonce();
     print_r($first);
         $newProduit = insertAnnonce("annonce3" , array("fruit", 2));
+        $newProduit = insertAnnonce("annonce4" , array("fruit", 2));
         echo "<pre>";
         print_r($newProduit);
         
