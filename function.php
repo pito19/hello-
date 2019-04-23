@@ -9,7 +9,8 @@ function getAllAnnonces(){
 
 function getFirstAnnonce(){
 
-	$first = current(getAllAnnonces());
+	
+    $first = current(getAllAnnonces());
     return $first ;
 
 }
