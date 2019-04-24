@@ -31,3 +31,7 @@ $first = getFirstAnnonce();
 
 
 ?>
+<script src="jquery-3.4.0.min.js"></script>
+<script>
+$("div").html('j\'utilise jQuery!');
+</script>
